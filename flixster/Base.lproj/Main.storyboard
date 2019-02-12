@@ -55,6 +55,7 @@
                                             <outlet property="posterView" destination="7ap-4o-KJc" id="LDu-py-dJc"/>
                                             <outlet property="synopsisLabel" destination="TQR-F2-P08" id="Wzk-Zz-tyM"/>
                                             <outlet property="titleLabel" destination="m9A-pz-lKh" id="Lks-Yi-lOW"/>
+                                            <segue destination="K7I-eE-idZ" kind="show" id="KOD-KA-D6O"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -71,6 +72,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="885.60000000000002" y="-672.41379310344837"/>
+        </scene>
+        <!--Movie Details View Controller-->
+        <scene sceneID="REz-5F-2F8">
+            <objects>
+                <viewController id="K7I-eE-idZ" customClass="MovieDetailsViewController" customModule="flixster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5kc-W5-pc7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="gYk-bW-Kst"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uvV-nU-cIu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1764" y="-672"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="reh-Tc-813">
